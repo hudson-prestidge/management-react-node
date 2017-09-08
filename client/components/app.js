@@ -1,12 +1,13 @@
 import React from 'react'
+import Container from './container'
 
 class App extends React.Component {
 
   render() {
-    console.log('rendering app component');
     return (
       <div>
-        Simple component
+        <p> Whole App </p>
+        <Container />
       </div>
     )
   }
