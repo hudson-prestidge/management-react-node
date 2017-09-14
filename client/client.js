@@ -1,8 +1,18 @@
 import React from 'react'
-import reactDOM from 'react-dom'
-import App from './components/app'
+import { render } from 'react-dom'
+import { Router, Route, Switch } from 'react-router'
+import { BrowserRouter } from 'react-router-dom'
 
-reactDOM.render(
-  <App />,
+import App from './components/app'
+import Landing from './components/landing'
+
+
+render(
+  <BrowserRouter>
+    <Switch>
+      <Route path="/" component={App}>
+      </Route>
+    </Switch>
+  </BrowserRouter>,
   document.getElementById('app')
 );
