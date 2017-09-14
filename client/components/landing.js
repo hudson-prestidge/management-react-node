@@ -1,4 +1,5 @@
 import React from 'react'
+import Navbar from './navbar'
 
 
 class Landing extends React.Component {
@@ -6,7 +7,8 @@ class Landing extends React.Component {
   render() {
     return (
       <div>
-        <p> Welcome to the landing page. From here you can navigate to the various parts of the app.  </p>
+        <Navbar />
+        <p className='centered'> Welcome to the landing page. From here you can navigate to the various parts of the app.  </p>
       </div>
     )
   }

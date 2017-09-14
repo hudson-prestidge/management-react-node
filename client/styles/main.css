@@ -2,6 +2,22 @@ p {
   color: red;
 }
 
+.centered {
+  text-align: center;
+}
+
+.navbar {
+  width: 100%;
+  height: 15%;
+  padding: 1% 12.5%;
+  margin: 0;
+}
+
+.navbutton {
+  width: 15%;
+  margin: 0;
+}
+
 .container {
   width: 90%;
   text-align: center;

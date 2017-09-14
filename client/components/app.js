@@ -1,5 +1,5 @@
 import React from 'react'
-import Container from './container'
+import Navbar from './navbar'
 
 class App extends React.Component {
 
@@ -7,7 +7,7 @@ class App extends React.Component {
     return (
       <div>
         <p> Whole App </p>
-        <Container />
+        {this.props.children}
       </div>
     )
   }

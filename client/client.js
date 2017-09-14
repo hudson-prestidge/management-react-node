@@ -10,7 +10,7 @@ import Landing from './components/landing'
 render(
   <BrowserRouter>
     <Switch>
-      <Route path="/" component={App}>
+      <Route path="/" component={Landing}>
       </Route>
     </Switch>
   </BrowserRouter>,
