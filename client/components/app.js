@@ -7,7 +7,6 @@ class App extends React.Component {
     return (
       <div>
         <p> Whole App </p>
-        {this.props.children}
       </div>
     )
   }
