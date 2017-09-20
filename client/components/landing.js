@@ -6,7 +6,7 @@ class Landing extends React.Component {
 
   render() {
     return (
-      <div>
+      <div classname='landing'>
         <Navbar />
         <p className='centered'> Welcome to the landing page. From here you can navigate to the various parts of the app.  </p>
       </div>
