@@ -4,6 +4,10 @@ import { Link } from 'react-router-dom'
 
 class Navbar extends React.Component {
 
+  constructor (){
+
+  }
+
   render() {
     return (
       <div className='navbar'>
